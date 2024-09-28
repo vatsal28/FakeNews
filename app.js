@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyD7uJud0r_HMX0UdlJC-61wzRKx-AFCMGw'; // Replace with your API key
+const apiKey = ''; // Replace with your API key
 
 async function fetchFactChecks(query = '') {
     const url = `https://factchecktools.googleapis.com/v1alpha1/claims:search?key=${apiKey}&query=${encodeURIComponent(query)}`;
