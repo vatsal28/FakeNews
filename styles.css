@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+}
+
+#fact-checks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fact-check {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.fact-check h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.fact-check p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
